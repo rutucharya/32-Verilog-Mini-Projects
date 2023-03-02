@@ -4,7 +4,7 @@ output [4:0] sum;
 output cout;
  
 wire [3:0] s0,s1;
-  wire [3:0] c0, c1;
+wire [3:0] c0, c1;
  
 //1st Statge
 full_adder fa0( .a(a[0]), .b(b[0]), .cin(c[0]), .sum(s0[0]), .cout(c0[0]));
