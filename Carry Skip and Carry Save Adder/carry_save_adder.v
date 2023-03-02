@@ -1,5 +1,5 @@
 module carry_save_adder(a,b,c,d, sum,cout);
-  input [3:0] a, b,c,d;
+input [3:0] a, b,c,d;
 output [4:0] sum;
 output cout;
  
